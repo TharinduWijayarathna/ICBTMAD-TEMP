@@ -1,0 +1,17 @@
+<!-- res/drawable/rounded_border_with_shadow.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#40000000" /> <!-- Semi-transparent black for shadow -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <!-- Main white background layer -->
+    <item android:left="3dp" android:right="3dp" android:top="3dp" android:bottom="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/background_color" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</layer-list>

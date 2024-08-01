@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FoodOrderApp</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="hi_user">Hi, User!</string>
+    <string name="featured_items">Featured Items</string>
+    <string name="checkout">Checkout</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="remove">Remove</string>
+    <string name="register_here">Register here</string>
+    <string name="items_purchased_successfully">Items purchased successfully!</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Items</string>
+    <string name="title_notifications">Cart</string>
+</resources>

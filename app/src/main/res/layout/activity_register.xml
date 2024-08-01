@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="175dp"
+        android:layout_height="172dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dog" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Dog Nutrition App"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_edit_text"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:minHeight="48dp"> <!-- Ensure minimum touch target size -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_name_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"/>
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Name"
+            android:textColor="@color/textColor"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:minHeight="48dp"/> <!-- Ensure minimum touch target size -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_edit_text"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:minHeight="48dp"> <!-- Ensure minimum touch target size -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_email_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"/>
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Email"
+            android:textColor="@color/textColor"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:minHeight="48dp"/> <!-- Ensure minimum touch target size -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edit_text"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:minHeight="48dp"> <!-- Ensure minimum touch target size -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_password_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"/>
+
+        <EditText
+            android:id="@+id/password_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Password"
+            android:textColor="@color/textColor"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:minHeight="48dp"/> <!-- Ensure minimum touch target size -->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/buttonTextColor"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/signup_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Sign Up"
+        android:textColor="@color/buttonColor"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icons8_google"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icons8_facebook"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+</LinearLayout>
